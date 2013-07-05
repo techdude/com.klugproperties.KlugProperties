@@ -58,10 +58,10 @@
 	
 	<!--android-->
 	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" width="800" height="1280"/>
-	<gap:splash src="res/screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi" width="720" height="1280"//>
-	<gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" width="480" height="800"//>
-	<gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" width="320" height="480"//>
-	<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" width="200" height="320"//>
+	<gap:splash src="res/screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi" width="720" height="1280"/>
+	<gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" width="480" height="800"/>
+	<gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" width="320" height="480"/>
+	<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" width="200" height="320"/>
 	
 	<gap:splash src="res/screen/android/screen-xhdpi-n7-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="800" />
 	<gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="720" />
