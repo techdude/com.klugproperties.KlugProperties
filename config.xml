@@ -42,6 +42,7 @@
     <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+	<preference name="splash-screen-duration"     value="500" />
     <!-- <preference name="android-minSdkVersion"      value="14" />             android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
@@ -56,11 +57,11 @@
 	<gap:splash src="splash.png" />
 	
 	<!--android-->
-	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi"/>
-	<gap:splash src="res/screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi"/>
-	<gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi"/>
-	<gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi"/>
-	<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi"/>
+	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" width="800" height="1280"/>
+	<gap:splash src="res/screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi" width="720" height="1280"//>
+	<gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" width="480" height="800"//>
+	<gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" width="320" height="480"//>
+	<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" width="200" height="320"//>
 	
 	<gap:splash src="res/screen/android/screen-xhdpi-n7-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="800" />
 	<gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi" width="1280" height="720" />
